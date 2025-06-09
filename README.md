@@ -3,7 +3,8 @@
 >Clan: Tayrona Correo:
 >nachjvasquez@gmail.com
 >1001889898
-In this project we cover many topics about HTML and CSS, taking into account media queries, styles, grid displays, layouts, display flex, animations, keyframes, to make a more attractive, better organized site, and giving more life to our websites, offering dynamic, responsive sites.
+
+>In this project we cover many topics about HTML and CSS, taking into account media queries, styles, grid displays, layouts, display flex, animations, keyframes, to make a more attractive, better organized site, and giving more life to our websites, offering dynamic, responsive sites.
 ## Header(animations, transparencies, hero style, among some other functions that we use)
 >html
 ![imagen](https://github.com/user-attachments/assets/7e968a24-dd0b-408c-ae15-0d6622122f86)
