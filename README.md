@@ -1,7 +1,7 @@
 # pruebadesempeno
 ## Hernan Jose Vasquez Araujo
--Clan: Tayrona Correo:
--nachjvasquez@gmail.com
+<br>Clan: Tayrona</br> 
+<br>Correo:nachjvasquez@gmail.com</br>
 -1001889898
 
 >In this project we cover many topics about HTML and CSS, taking into account media queries, styles, grid displays, layouts, display flex, animations, keyframes, to make a more attractive, better organized site, and giving more life to our websites, offering dynamic, responsive sites.
