@@ -12,8 +12,7 @@
 ![imagen](https://github.com/user-attachments/assets/7bbafd68-5e6a-4831-b473-f2e8fb09a715)
 
 
-
-## Among the options to improve our page, I decided to create an interactive header with transparencies and some animations with WebKit, and keyframes, to offer more dynamism and a more friendly treatment with small devices.
+<br>Among the options to improve our page, I decided to create an interactive header with transparencies and some animations with WebKit, and keyframes, to offer more dynamism and a more friendly treatment with small devices.</br>
 
 ![Captura desde 2025-06-09 11-54-57](https://github.com/user-attachments/assets/3cbfb951-039c-4cad-a12c-05c7dcad6a93)
 ## NAVMENU(BURGUER)
