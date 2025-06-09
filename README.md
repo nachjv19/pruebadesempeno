@@ -6,11 +6,12 @@
 
 >In this project we cover many topics about HTML and CSS, taking into account media queries, styles, grid displays, layouts, display flex, animations, keyframes, to make a more attractive, better organized site, and giving more life to our websites, offering dynamic, responsive sites.
 ## Header(animations, transparencies, hero style, among some other functions that we use)
->html
+<br>html
 ![imagen](https://github.com/user-attachments/assets/7e968a24-dd0b-408c-ae15-0d6622122f86)
->css
+</br>
+<br>css
 ![imagen](https://github.com/user-attachments/assets/7bbafd68-5e6a-4831-b473-f2e8fb09a715)
-
+</br>
 
 
 ## Among the options to improve our page, I decided to create an interactive header with transparencies and some animations with WebKit, and keyframes, to offer more dynamism and a more friendly treatment with small devices.
