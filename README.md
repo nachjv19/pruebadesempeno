@@ -2,7 +2,7 @@
 ## Hernan Jose Vasquez Araujo
 <br>Clan: Tayrona</br> 
 <br>Correo:nachjvasquez@gmail.com</br>
--1001889898
+<br>1001889898</br>
 
 >In this project we cover many topics about HTML and CSS, taking into account media queries, styles, grid displays, layouts, display flex, animations, keyframes, to make a more attractive, better organized site, and giving more life to our websites, offering dynamic, responsive sites.
 ## Header(animations, transparencies, hero style, among some other functions that we use)
