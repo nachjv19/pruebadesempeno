@@ -1,0 +1,304 @@
+
+
+/* ----------- GENERAL ----------- */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #f0f0f0;
+  line-height: 1.6;
+}
+
+/* ----------- ENCABEZADO ----------- */
+header {
+  background-color: #1e1e1e;
+  padding: 20px;
+  
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #00bfff;
+  
+}
+.logo img{
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.logo p {
+  margin: 5px 15px;
+  color: #ccc;
+
+  
+}
+
+
+/* ----------- MENÚ RESPONSIVE ----------- */
+.nav-menu {
+  position: relative;
+  text-align: right;
+  
+}
+
+.menu-icon {
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+  color: #00bfff;
+}
+
+.menu-list {
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+  justify-content: right;
+
+  
+
+}
+
+.menu-list li a {
+  color: #f0f0f0;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+
+.menu-list li a:hover {
+  color: #00bfff;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+.menu-list {
+    display: none;
+    flex-direction: none;
+    background-color: #333b3b;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    
+  }
+
+  #menu-toggle:checked + .menu-icon + .menu-list{
+    display: flex;
+  }
+}
+
+/* ----------- CONTENEDOR PRINCIPAL ----------- */
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+}
+
+.contenido {
+  flex: 2;
+  min-width: 0;
+}
+
+.tarjeta-noticias {
+  flex: 1;
+  min-width: 250px;
+}
+
+/* ----------- TARJETAS / BOX ----------- */
+.tarjeta {
+  background-color: #1e1e1e;
+  border: 1px solid #00bfff;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 8px rgba(0, 191, 255, 0.3);
+  position: relative;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tarjeta:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 15px rgba(0, 191, 255, 0.4);
+}
+
+.tarjeta h3 {
+  color: #00bfff;
+}
+
+
+.highlight {
+  color: red;
+}
+
+#special {
+  color: green;
+}
+
+/* ----------- ROTATE BOX (GENÉRICO) ----------- */
+.rotate-box {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  transform: rotate(45deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  font-weight: bold;
+  color: #000;
+  box-shadow: 2px 2px 10px #000;
+}
+
+/* ----------- ROTATE BOX PARA MEMORANDOS ----------- */
+.rotate-box.memo {
+  width: 90%;
+  max-width: 250px;
+  height: auto;
+  min-height: 100px;
+  background-color: #fff8a0;
+  padding: 15px;
+  margin: 15px auto;
+  color: #111;
+  font-size: 0.95em;
+  font-weight: normal;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+  border: 1px solid #e6c200;
+  border-radius: 8px;
+  transform: rotate(3deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+.rotate-box.memo::before {
+  content: "NEW!";
+  color: red;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* Variaciones de rotación */
+.rotate-left {
+  transform: rotate(-3deg);
+}
+.rotate-right {
+  transform: rotate(4deg);
+}
+.rotate-center {
+  transform: rotate(0deg);
+}
+
+@media (max-width: 768px) {
+  .rotate-box.memo {
+    width: 100%;
+    transform: none !important;
+    margin: 10px 0;
+  }
+}
+
+/* ----------- FADE-IN ----------- */
+.fade-in {
+  animation: fade 2s ease-in-out;
+}
+
+@keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* ----------- FIGURES / IMÁGENES ----------- */
+figure {
+  margin: 0;
+  text-align: center;
+}
+
+figure img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+figcaption {
+  font-size: 0.9em;
+  color: #bbbbbb;
+  font-style: italic;
+  margin-top: 8px;
+}
+
+/* ----------- CONTENIDO RELACIONADO ----------- */
+.contenido-relacionado {
+  padding: 0 20px 20px 20px;
+}
+
+/* ----------- PIE DE PÁGINA ----------- */
+footer {
+  background-color: #1e1e1e;
+  color: #aaa;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
+
+/* ----------- LISTA DE HERRAMIENTAS CON LOGOS ----------- */
+ul.herramientas {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+ul.herramientas li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+ul.herramientas img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 2px;
+  border: 1px solid #ccc;
+}
+
+/* ----------- RESPONSIVE GENERAL ----------- */
+@media (max-width: 768px) {
+  .contenedor {
+    flex-direction: column;
+  }
+
+  .noticias {
+    order: 2;
+  }
+
+  .contenido {
+    order: 1;
+  }
+
+  .contenido-relacionado {
+    order: 3;
+  }
+}

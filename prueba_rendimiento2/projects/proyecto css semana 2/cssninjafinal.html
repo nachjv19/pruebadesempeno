@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IA For Devs</title>
+  <link rel="stylesheet" href="css/cssninjafinal.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+       <img src="img/What-Is-AI-Featured.webp" alt="logopage">
+     <h1>IA For Devs</h1>
+     <p>Descubre el futuro de la inteligencia artificial</p>
+    </div>
+  
+  <!--Esta parte define la funcionalidad del menu nav, integrando un poco de JS para crear un menu con tres barras en dispositivos pequeños y mejorar la interfaz.-->
+    <nav class="nav-menu">
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+      <ul class="menu-list">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Artículos</a></li>
+        <li><a href="#">Aplicaciones</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+<!---Contenedores con animaciones e imagenes usando figure y figcaption para integrar imagenes y descripciones-->
+  <main class="contenedor">
+    <div class="contenido">
+      <section class="principal fade-in">
+        <h2>¿Qué es la IA y por qué es importante para los desarrolladores?</h2>
+        <article class="tarjeta highlight" id="special">
+          <figure>
+            <img src="img/pexels-kevin-ku-92347-577585(1).jpg " alt="imagenIA">
+            <figcaption>Visualización conceptual del pensamiento artificial.</figcaption>
+          </figure>
+          <p>La inteligencia artificial permite a las máquinas simular capacidades humanas como el aprendizaje y la toma de decisiones.</p>
+        </article>
+      </section>
+<!--Usamos tarjetas como clase para los contenedores para tener mas facilidad al momento de la edicion con css-->
+      <section>
+        <article class="tarjeta box">
+          <h3>Herramientas y Frameworks</h3>
+          <ul class="herramientas">
+            <li>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" alt="TensorFlow Logo">
+              <strong>TensorFlow:</strong> Aprendizaje profundo escalable.
+            </li>
+            <li>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg" alt="PyTorch Logo">
+              <strong>PyTorch:</strong> Investigación flexible.
+            </li>
+            <li>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn Logo">
+              <strong>Scikit-learn:</strong> Modelos clásicos eficientes.
+            </li>
+            <li>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/OpenAI_Logo.svg" alt="OpenAI Logo">
+              <strong>OpenAI API:</strong> Modelos de lenguaje avanzados.
+            </li>
+          </ul>
+        </article>
+
+        <article class="tarjeta box">
+          <h3>Casos de uso</h3>
+          <p>Desde automatizar reportes hasta personalizar experiencias con chatbots, la IA mejora la productividad en todas las industrias.</p>
+        </article>
+      </section>
+    </div>
+<!--Usamos un aside para definir la seccion de noticias en la parte lateral derecha para asi crear un efecto de "memorandos" o ""-->
+    <aside class="tarjeta-noticias">
+      <h3>Noticias de la Semana</h3>
+      <div class="rotate-box memo rotate-left">
+        <p><strong>OpenAI</strong> lanza nuevas funciones para desarrolladores.</p>
+      </div>
+      <div class="rotate-box memo rotate-right">
+        <p><strong>Google</strong> mejora Gemini con IA multimodal.</p>
+      </div>
+      <div class="rotate-box memo rotate-center">
+        <p><strong>Ciberseguridad:</strong> la IA ayuda a detectar ataques en tiempo real.</p>
+      </div>
+    </aside>
+  </main>
+<!--contenido aleatorio relacionado con el contenido en este caso algunas peliculas que nos familiarizan con la IA-->
+  <section class="contenido-relacionado">
+    <article class="tarjeta box">
+      <h3>Contenido Relacionado</h3>
+      <p>Películas como <em>"Her"</em>, <em>"Ex Machina"</em> y <em>"The Imitation Game"</em> exploran la relación entre humanos e inteligencia artificial.</p>
+    </article>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Hernán José Vasquez | Fuentes: IBM, OpenAI, Stanford | Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
